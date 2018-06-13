@@ -1,4 +1,6 @@
 # fix_orphaned_inode_list
+First of all, big thanks to pishrink developer. This script is partly copied from pishrink original script but has no image shrinking capability. It only uses the same logic from pishrink to map variables, mount loopbacks and run fsck tool.
+
 When using pishrink, I've encountered the error "Inodes that were part of a corrupted orphan linked list found". 
 This script attempts to fix orphaned inode list on img files.
 
