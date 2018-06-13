@@ -11,5 +11,7 @@ Execute at your own risk!
 Usage:
 
 wget https://raw.githubusercontent.com/gmenezesg/fix_orphaned_inode_list/master/fix_orphaned_inode_list.sh
+
 sudo chmod +x fix_orphaned_inode_list.sh
+
 sudo ./fix_orphaned_inode_list.sh [imagefile.img]
